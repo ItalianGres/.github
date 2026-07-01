@@ -63,37 +63,6 @@ Il progetto versiona un set di strumenti per specializzare gli agenti AI (Claude
 
 ---
 
-## Onboarding rapido
-
-```bash
-# 1. Clona il repo ecommerce
-git clone <url-repo-ecommerce> italiangres && cd italiangres
-
-# 2. Avvia lo stack
-make docker-up          # su i container
-make docker-sh          # shell nel container PHP
-make cc                 # clear cache Symfony
-
-# 3. Migrazioni DB
-make flyway-info
-make flyway-migrate
-
-# 4. Log
-make logs               # container prestashop
-```
-
-Servizi locali (porte in `docker-compose.yml`): **PrestaShop**, **phpMyAdmin**, **MailDev**, **MySQL**.
-
-**Prima di scrivere codice, leggi `CLAUDE.md`** nella root del progetto. Regole d'oro:
-
-- Testo nel codice **in inglese**; traduzioni via sistema PS9.
-- Moduli custom con prefisso **`ig_`** + `README.md` + `index.php` di sicurezza in ogni dir.
-- **Query via ORM** quando possibile; SQL grezzo solo con commento che motiva.
-- Prima di scrivere logica di prodotto, controlla `IgHelpers\ProductHelper` (usa `ig-helper-finder`).
-- **Mai commit in autonomia** — solo su richiesta esplicita.
-
----
-
 ## Repository
 
 <!-- REPOS:START -->
