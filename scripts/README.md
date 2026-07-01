@@ -1,9 +1,9 @@
 # Script di aggiornamento profilo
 
-Rigenerano le sezioni **Repository** e **Contributor** di [`../profile/README.md`](../profile/README.md)
-tra i marker `<!-- REPOS:* -->` e `<!-- CONTRIBUTORS:* -->`.
+Rigenera la sezione **Contributor** di [`../profile/README.md`](../profile/README.md)
+tra i marker `<!-- CONTRIBUTORS:* -->`.
 
-Eseguiti in automatico da [`../.github/workflows/update-profile.yml`](../.github/workflows/update-profile.yml)
+Eseguito in automatico da [`../.github/workflows/update-profile.yml`](../.github/workflows/update-profile.yml)
 (cron giornaliero + avvio manuale da tab *Actions*).
 
 ## Setup del secret `ORG_READONLY_TOKEN` (una tantum)
@@ -29,10 +29,8 @@ Scadenza consigliata: 90 giorni; rinnovare aggiornando il secret.
 ```bash
 export GH_TOKEN=<pat>          # oppure: gh auth login
 export ORG=ItalianGres
-bash scripts/update-repos.sh
 bash scripts/update-contributors.sh
 git diff -- profile/README.md
 ```
 
-> Nota: gli script elencano solo i repo dell'org `ItalianGres`. Il repo e-commerce, se
-> resta su un account personale, non comparirà finché non viene trasferito nell'org.
+> Nota: lo script aggrega i contributor solo dei repo dell'org `ItalianGres`.

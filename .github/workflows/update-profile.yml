@@ -1,8 +1,9 @@
 name: Update profile README
 
-# Rigenera lista repository + lista contributor nel profile/README.md.
-# Legge i repo dell'org (privati inclusi) tramite il PAT read-only ORG_READONLY_TOKEN;
-# il push usa il GITHUB_TOKEN di default (write limitato a questo repo).
+# Rigenera la lista contributor nel profile/README.md.
+# Legge i contributor dei repo dell'org (privati inclusi) tramite il PAT
+# read-only ORG_READONLY_TOKEN; il push usa il GITHUB_TOKEN di default
+# (write limitato a questo repo).
 
 on:
   schedule:
@@ -32,12 +33,6 @@ jobs:
             echo "::error::Secret ORG_READONLY_TOKEN mancante. Vedi scripts/README.md."
             exit 1
           fi
-
-      - name: Aggiorna lista repository
-        env:
-          GH_TOKEN: ${{ secrets.ORG_READONLY_TOKEN }}
-          ORG: ItalianGres
-        run: bash scripts/update-repos.sh
 
       - name: Aggiorna lista contributor
         env:

@@ -63,23 +63,6 @@ Il progetto versiona un set di strumenti per specializzare gli agenti AI (Claude
 
 ---
 
-## Repository
-
-<!-- REPOS:START -->
-| Repo | Descrizione | Visibilità | Linguaggio |
-|---|---|---|---|
-| [**.github**](https://github.com/ItalianGres/.github) | README.md repository per l'organizzazione | 🔒 Privato | Shell |
-| [**automatic_shipment_database**](https://github.com/ItalianGres/automatic_shipment_database) | Script creato per permettere al software P-Touch Editor del reparto spedizioni di avere sempre un file _.csv_ aggiornato con il database di `italiangres.com`. | 🔒 Privato | Python |
-| [**cutting-machine-logger**](https://github.com/ItalianGres/cutting-machine-logger) | Sistema di telemetria installato su un Raspberry Pi collegato direttamente alla macchina da taglio. Legge in tempo reale lo stato operativo tramite protocollo OPC UA e registra ogni variazione su database cloud AWS RDS. | 🔒 Privato | Python |
-| [**italiangres**](https://github.com/ItalianGres/italiangres) | — | 🔒 Privato | PHP |
-| [**keplero**](https://github.com/ItalianGres/keplero) | Keplero è l'assistente vocale intelligente di ItalianGres.com, progettato per offrire un'esperienza di assistenza clienti fluida, precisa e multilingua. | 🔒 Privato | — |
-| [**modula-bridge**](https://github.com/ItalianGres/modula-bridge) | Middleware di integrazione tra l'e-commerce PrestaShop e il magazzino automatizzato Modula WMS. Orchestrare tre flussi dati in sync continuo, garantendo che ordini, catalogo e giacenze siano sempre allineati tra i due sistemi. | 🔒 Privato | TypeScript |
-<!-- REPOS:END -->
-
-> Elenco aggiornato automaticamente da [`update-profile.yml`](../.github/workflows/update-profile.yml). Include solo i repo dell'organizzazione `ItalianGres`.
-
----
-
 ## Contributor
 
 <!-- CONTRIBUTORS:START -->
