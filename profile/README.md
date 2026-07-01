@@ -99,7 +99,12 @@ Servizi locali (porte in `docker-compose.yml`): **PrestaShop**, **phpMyAdmin**, 
 <!-- REPOS:START -->
 | Repo | Descrizione | Visibilità | Linguaggio |
 |---|---|---|---|
-| [**.github**](https://github.com/ItalianGres/.github) | Configurazione org, questo profilo, config agenti AI | 🔒 Privato | — |
+| [**.github**](https://github.com/ItalianGres/.github) | README.md repository per l'organizzazione | 🔒 Privato | Shell |
+| [**automatic_shipment_database**](https://github.com/ItalianGres/automatic_shipment_database) | Script creato per permettere al software P-Touch Editor del reparto spedizioni di avere sempre un file _.csv_ aggiornato con il database di `italiangres.com`. | 🔒 Privato | Python |
+| [**cutting-machine-logger**](https://github.com/ItalianGres/cutting-machine-logger) | Sistema di telemetria installato su un Raspberry Pi collegato direttamente alla macchina da taglio. Legge in tempo reale lo stato operativo tramite protocollo OPC UA e registra ogni variazione su database cloud AWS RDS. | 🔒 Privato | Python |
+| [**italiangres**](https://github.com/ItalianGres/italiangres) | — | 🔒 Privato | PHP |
+| [**keplero**](https://github.com/ItalianGres/keplero) | Keplero è l'assistente vocale intelligente di ItalianGres.com, progettato per offrire un'esperienza di assistenza clienti fluida, precisa e multilingua. | 🔒 Privato | — |
+| [**modula-bridge**](https://github.com/ItalianGres/modula-bridge) | Middleware di integrazione tra l'e-commerce PrestaShop e il magazzino automatizzato Modula WMS. Orchestrare tre flussi dati in sync continuo, garantendo che ordini, catalogo e giacenze siano sempre allineati tra i due sistemi. | 🔒 Privato | TypeScript |
 <!-- REPOS:END -->
 
 > Elenco aggiornato automaticamente da [`update-profile.yml`](../.github/workflows/update-profile.yml). Include solo i repo dell'organizzazione `ItalianGres`.
@@ -109,7 +114,11 @@ Servizi locali (porte in `docker-compose.yml`): **PrestaShop**, **phpMyAdmin**, 
 ## Contributor
 
 <!-- CONTRIBUTORS:START -->
-<sub>In attesa del primo aggiornamento automatico.</sub>
+<p align="left">
+  <a href="https://github.com/DevManfre" title="DevManfre · 1413 commit"><img src="https://avatars.githubusercontent.com/u/94976747?v=4&s=64" width="56" height="56" alt="DevManfre" style="border-radius:50%" /></a>
+  <a href="https://github.com/robbycassa" title="robbycassa · 499 commit"><img src="https://avatars.githubusercontent.com/u/12562139?v=4&s=64" width="56" height="56" alt="robbycassa" style="border-radius:50%" /></a>
+  <a href="https://github.com/gabrielerighi93" title="gabrielerighi93 · 268 commit"><img src="https://avatars.githubusercontent.com/u/244496801?v=4&s=64" width="56" height="56" alt="gabrielerighi93" style="border-radius:50%" /></a>
+</p>
 <!-- CONTRIBUTORS:END -->
 
 > Aggregati da tutti i repo dell'org e aggiornati da [`update-profile.yml`](../.github/workflows/update-profile.yml).
