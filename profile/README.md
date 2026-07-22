@@ -69,7 +69,7 @@ Il progetto versiona un set di strumenti per specializzare gli agenti AI (Claude
 <p align="left">
   <a href="https://github.com/DevManfre" title="DevManfre · 1415 commit"><img src="https://avatars.githubusercontent.com/u/94976747?v=4&s=64" width="56" height="56" alt="DevManfre" style="border-radius:50%" /></a>
   <a href="https://github.com/robbycassa" title="robbycassa · 501 commit"><img src="https://avatars.githubusercontent.com/u/12562139?v=4&s=64" width="56" height="56" alt="robbycassa" style="border-radius:50%" /></a>
-  <a href="https://github.com/gabrielerighi93" title="gabrielerighi93 · 274 commit"><img src="https://avatars.githubusercontent.com/u/244496801?v=4&s=64" width="56" height="56" alt="gabrielerighi93" style="border-radius:50%" /></a>
+  <a href="https://github.com/gabrielerighi93" title="gabrielerighi93 · 275 commit"><img src="https://avatars.githubusercontent.com/u/244496801?v=4&s=64" width="56" height="56" alt="gabrielerighi93" style="border-radius:50%" /></a>
 </p>
 <!-- CONTRIBUTORS:END -->
 
